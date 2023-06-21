@@ -7,9 +7,9 @@ function App() {
 
   return (
     <div className="reactjs">
-      <h2>{a}</h2>
+      <h2>{b}</h2>
       <button onClick={() => setb((p) => p+5)}>+</button>
-      <button onClick={() => setb((p) => p-5)}>+</button>
+      <button onClick={() => setb((p) => p-5)}>-</button>
     </div>
   );
 }
